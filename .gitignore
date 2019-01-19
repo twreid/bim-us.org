@@ -61,6 +61,7 @@ flycheck_*.el
 # generated files by hugo
 /public/
 /resources/_gen/
+/themes/alpha-church/resources/_gen/
 
 # executable may be added to repository
 hugo.exe
