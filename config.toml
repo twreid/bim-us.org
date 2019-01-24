@@ -111,8 +111,8 @@ googleAnalytics = ""
       image = "images/banner.jpg"
 
       [[params.landing.banner.button]]
-        url = "/contact"
-        text = "Get in touch"
+        url = "/application"
+        text = "Application"
         type = "special"
 
         [[params.landing.banner.button]]
@@ -121,42 +121,42 @@ googleAnalytics = ""
 
     #Details for the box below the banner
     [params.landing.services]
-      title = "Church on Sunday"
-      text = "We meet at 5 am and 2 pm at [6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris](https://www.openstreetmap.org/way/201611261)."
-      map_location = "Cathédrale Notre-Dame de Paris"
+      title = "Location"
+      text = "[2540 N Kansas Expy, Springfield, MO 65803](https://goo.gl/maps/D9N1ar5ot1n)"
+      map_location = "Bible Institute of Missouri"
 
     [params.landing.feature_icons]
       #These feature icons look best if there's an even number of them.
-      enable = true
+      enable = false
 
       #Accent is a colour defined in the CSS file. Choose between 1 and 5
       [[params.landing.feature_icons.tile]]
         icon = "fa-hands-helping"
         icon_pack = "fas"
         accent = "1"
-        title = "Serve"
-        text = "Growing people who serve our community."
+        title = "Program"
+        text = "The current preacher training program."
 
       [[params.landing.feature_icons.tile]]
         icon = "fa-church"
         icon_pack = "fas"
         accent = "2"
-        title = "Meet"
-        text = "Meeting together to hear."
+        title = "Faculty"
+        text = "Meet the faculty."
 
       [[params.landing.feature_icons.tile]]
         icon = "fa-comments"
         icon_pack = "fas"
         accent = "5"
-        title = "Speak"
-        text = "Speaking encouragement to one-another."
+        title = "Resources"
+        text = "Bible Institute resources."
 
       [[params.landing.feature_icons.tile]]
         icon = "fa-heartbeat"
         icon_pack = "fas"
         accent = "3"
-        title = "Loved"
-        text = "Knowing Love. Being Loved."
+        title = "Alumni"
+        text = "Current and past students."
 
     [params.landing.feature_images]
       #These feature images look best if there's an even number of them.
@@ -164,17 +164,31 @@ googleAnalytics = ""
 
       [[params.landing.feature_images.tile]]
         image = "img/freely-10057.jpg"
-        title = "Childrens' Ministry"
-        text = "A church for the family."
-        url = "/kids"
-        button_text = "Learn more"
+        title = "Faculty"
+        text = "The Bibile Insitute Faculty"
+        url = "/faculty"
+        button_text = "Meet"
 
       [[params.landing.feature_images.tile]]
         image = "img/freely-26905.jpg"
-        title = "Midweek Ministries"
-        text = "Want more during the week?"
-        url = "#"
-        button_text="Join a group today!"
+        title = "Alumni"
+        text = "Current and past students."
+        url = "/alumni"
+        button_text="Students"
+
+      [[params.landing.feature_images.tile]]
+        image = "img/freely-26905.jpg"
+        title = "Program"
+        text = "The current preacher training program."
+        url = "/program"
+        button_text="Details"
+
+      [[params.landing.feature_images.tile]]
+        image = "img/freely-26905.jpg"
+        title = "Application"
+        text = "Apply to become a student."
+        url = "/application"
+        button_text="Apply"
 
     [params.landing.CTA]
       heading = "Get in touch!"
@@ -187,22 +201,10 @@ googleAnalytics = ""
                   ]
 
     [[params.links]]
-      service = "Twitter"
-      icon = "fa-twitter"
-      icon_pack = "fab"
-      link = "//twitter.com/"
-
-    [[params.links]]
       service = "Facebook"
       icon = "fa-facebook"
       icon_pack = "fab"
-      link = "//facebook.com/"
-
-    [[params.links]]
-      service = "Podcast"
-      icon = "fa-podcast"
-      icon_pack = "fas"
-      link = "/sermons/index.xml"
+      link = "https://www.facebook.com/bibleinstituteofmissouri/"
 
     [[params.links]]
       service = "Full RSS Feed"

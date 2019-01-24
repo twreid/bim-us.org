@@ -1,11 +1,4 @@
-{{ if .Site.Params.Map.latitude }}
-  {{ if .Site.Params.Map.longitude }}
-      {{ "<!-- OpenStreetMap -->" | safeHTML }}
-      <span style="display: none; visibility: hidden">
-        <input id="map-lat" value="{{ .Site.Params.Map.latitude }}" />
-        <input id="map-lng" value="{{ .Site.Params.Map.longitude }}" />
-        <input id="map-zoom" value="{{ .Site.Params.Map.zoom }}" />
-      </span>
-      <div id="map" class="box"></div>
-  {{ end }}
-{{ end }}
+{{ "<!-- Google Maps -->" | safeHTML }}
+<div class="box">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.164508798069!2d-93.31088998435825!3d37.24380415030169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf627093f97989%3A0x69eb8b878fecc9fd!2sBible+Instiutite+of+Missouri!5e0!3m2!1sen!2sus!4v1548288635286" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
