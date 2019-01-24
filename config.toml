@@ -37,10 +37,22 @@ googleAnalytics = ""
     weight = 1
 
   [[menu.main]]
-    name = "Leaders"
+    name = "Introduction"
     parent = "About"
-    url = "/leaders"
+    url = "/introduction"
     weight = 2
+
+  [[menu.main]]
+    name = "Faculty"
+    parent = "About"
+    url = "/faculty"
+    weight = 3
+
+    [[menu.main]]
+    name = "Alumni"
+    parent = "About"
+    url = "/Alumni"
+    weight = 4
 
   [[menu.main]]
     name = "Resources"
@@ -58,11 +70,6 @@ googleAnalytics = ""
     url = "/posts"
     parent = "Resources"
     weight = 2
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 4
 
 # Paramaters for the whole site
 [params]
@@ -85,12 +92,6 @@ googleAnalytics = ""
     sub_category = "Christianity"
     iTunes = "https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280"
     feed = "https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast"
-
-  [params.map]
-    # For Open Street Map widgets
-    latitude = "37.2438206"
-    longitude = "-93.3087143"
-    zoom = "18"
 
   [params.contact]
     #Use this section to automate contact form.
