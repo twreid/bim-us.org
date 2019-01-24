@@ -1,9 +1,8 @@
-baseURL = "http://bim-us.org/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Bible Institute of Missouri"
-theme = "alpha-church"
-
-themesDir = "themes"
+title = "Alpha Church"
+theme = ['alpha-church']
+themesDir = "../.."
 
 rssLimit = 5
 
@@ -37,22 +36,10 @@ googleAnalytics = ""
     weight = 1
 
   [[menu.main]]
-    name = "Introduction"
+    name = "Leaders"
     parent = "About"
-    url = "/introduction"
+    url = "/leaders"
     weight = 2
-
-  [[menu.main]]
-    name = "Faculty"
-    parent = "About"
-    url = "/faculty"
-    weight = 3
-
-    [[menu.main]]
-    name = "Alumni"
-    parent = "About"
-    url = "/Alumni"
-    weight = 4
 
   [[menu.main]]
     name = "Resources"
@@ -71,10 +58,15 @@ googleAnalytics = ""
     parent = "Resources"
     weight = 2
 
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 4
+
 # Paramaters for the whole site
 [params]
-  title = "Bible Institute of Missouri"
-  subtitle = "The Bible Institute of Missouri is a work of the Kansas Expressway church of Christ, Sprinfield, Missouri."
+  title = "Alpha Church"
+  subtitle = "Another Church Theme"
   author = "Daniel Saunders"
 
   customCSS = ["example.css"]
@@ -93,6 +85,12 @@ googleAnalytics = ""
     iTunes = "https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280"
     feed = "https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast"
 
+  [params.map]
+    # For Open Street Map widgets
+    latitude = "48.8530"
+    longitude = "2.3498"
+    zoom = "18"
+
   [params.contact]
     #Use this section to automate contact form.
     #Set service to either "netlify" or "formspree"
@@ -109,11 +107,11 @@ googleAnalytics = ""
   [params.landing]
 
     [params.landing.banner]
-      image = "images/banner.jpg"
+      image = "img/banner.jpg"
 
       [[params.landing.banner.button]]
-        url = "/application"
-        text = "Application"
+        url = "/contact"
+        text = "Get in touch"
         type = "special"
 
         [[params.landing.banner.button]]
@@ -122,42 +120,42 @@ googleAnalytics = ""
 
     #Details for the box below the banner
     [params.landing.services]
-      title = "Location"
-      text = "[2540 N Kansas Expy, Springfield, MO 65803](https://goo.gl/maps/D9N1ar5ot1n)"
-      map_location = "Bible Institute of Missouri"
+      title = "Church on Sunday"
+      text = "We meet at 5 am and 2 pm at [6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris](https://www.openstreetmap.org/way/201611261)."
+      map_location = "Cathédrale Notre-Dame de Paris"
 
     [params.landing.feature_icons]
       #These feature icons look best if there's an even number of them.
-      enable = false
+      enable = true
 
       #Accent is a colour defined in the CSS file. Choose between 1 and 5
       [[params.landing.feature_icons.tile]]
         icon = "fa-hands-helping"
         icon_pack = "fas"
         accent = "1"
-        title = "Program"
-        text = "The current preacher training program."
+        title = "Serve"
+        text = "Growing people who serve our community."
 
       [[params.landing.feature_icons.tile]]
         icon = "fa-church"
         icon_pack = "fas"
         accent = "2"
-        title = "Faculty"
-        text = "Meet the faculty."
+        title = "Meet"
+        text = "Meeting together to hear."
 
       [[params.landing.feature_icons.tile]]
         icon = "fa-comments"
         icon_pack = "fas"
         accent = "5"
-        title = "Resources"
-        text = "Bible Institute resources."
+        title = "Speak"
+        text = "Speaking encouragement to one-another."
 
       [[params.landing.feature_icons.tile]]
         icon = "fa-heartbeat"
         icon_pack = "fas"
         accent = "3"
-        title = "Alumni"
-        text = "Current and past students."
+        title = "Loved"
+        text = "Knowing Love. Being Loved."
 
     [params.landing.feature_images]
       #These feature images look best if there's an even number of them.
@@ -165,31 +163,17 @@ googleAnalytics = ""
 
       [[params.landing.feature_images.tile]]
         image = "img/freely-10057.jpg"
-        title = "Faculty"
-        text = "The Bibile Insitute Faculty"
-        url = "/faculty"
-        button_text = "Meet"
+        title = "Childrens' Ministry"
+        text = "A church for the family."
+        url = "/kids"
+        button_text = "Learn more"
 
       [[params.landing.feature_images.tile]]
         image = "img/freely-26905.jpg"
-        title = "Alumni"
-        text = "Current and past students."
-        url = "/alumni"
-        button_text="Students"
-
-      [[params.landing.feature_images.tile]]
-        image = "img/freely-26905.jpg"
-        title = "Program"
-        text = "The current preacher training program."
-        url = "/program"
-        button_text="Details"
-
-      [[params.landing.feature_images.tile]]
-        image = "img/freely-26905.jpg"
-        title = "Application"
-        text = "Apply to become a student."
-        url = "/application"
-        button_text="Apply"
+        title = "Midweek Ministries"
+        text = "Want more during the week?"
+        url = "#"
+        button_text="Join a group today!"
 
     [params.landing.CTA]
       heading = "Get in touch!"
@@ -202,14 +186,25 @@ googleAnalytics = ""
                   ]
 
     [[params.links]]
+      service = "Twitter"
+      icon = "fa-twitter"
+      icon_pack = "fab"
+      link = "//twitter.com/"
+
+    [[params.links]]
       service = "Facebook"
       icon = "fa-facebook"
       icon_pack = "fab"
-      link = "https://www.facebook.com/bibleinstituteofmissouri/"
+      link = "//facebook.com/"
+
+    [[params.links]]
+      service = "Podcast"
+      icon = "fa-podcast"
+      icon_pack = "fas"
+      link = "/sermons/index.xml"
 
     [[params.links]]
       service = "Full RSS Feed"
       icon = "fa-rss"
       icon_pack = "fas"
       link = "/index.xml"
-
