@@ -1,0 +1,17 @@
+{{ if .Site.Params.alumni }}
+    {{ range $index, $key := .Site.Params.alumni }}
+    <div class="card">
+        <img src="/images/alumni/{{ $key.img }}" style="width:100%">
+        <div class="card-container">
+            <h4><b>{{ $key.class }}</b></h4>
+            {{ if $key.students }}
+            <ul>
+                {{ range $key.students }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+{{ end }}
