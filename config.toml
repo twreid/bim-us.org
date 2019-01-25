@@ -43,16 +43,28 @@ googleAnalytics = ""
     weight = 2
 
   [[menu.main]]
+    name = "History"
+    parent = "About"
+    url = "/history"
+    weight = 3
+
+  [[menu.main]]
     name = "Faculty"
     parent = "About"
     url = "/faculty"
-    weight = 3
+    weight = 4
 
-    [[menu.main]]
+  [[menu.main]]
     name = "Alumni"
     parent = "About"
-    url = "/Alumni"
-    weight = 4
+    url = "/alumni"
+    weight = 5
+
+  [[menu.main]]
+    name = "Facility"
+    parent = "About"
+    url = "/facility"
+    weight = 6
 
   [[menu.main]]
     name = "Resources"
@@ -77,7 +89,7 @@ googleAnalytics = ""
   subtitle = "The Bible Institute of Missouri is a work of the Kansas Expressway church of Christ, Sprinfield, Missouri."
   author = "Daniel Saunders"
 
-  customCSS = ["example.css"]
+  customCSS = ["bim.css"]
 
   bible_popups = true
 
@@ -212,4 +224,3 @@ googleAnalytics = ""
       icon = "fa-rss"
       icon_pack = "fas"
       link = "/index.xml"
-

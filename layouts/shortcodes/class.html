@@ -1,0 +1,19 @@
+{{ if .Site.Data.alumni }}
+    {{ range .Site.Data.alumni.classes }}
+
+    <div class="card">
+        <img src="/images/alumni/{{ .img }}" style="width:100%">
+        <div class="card-container">
+            <h4><b>{{ .class }}</b></h4>
+            {{ if .students }}
+                <ul>
+                {{ range .students }}
+                    <li>{{ . }}</li>
+                {{ end }}
+                </ul>
+            {{ end }}
+        </div>
+    </div>
+    
+    {{ end }}
+{{ end }}
