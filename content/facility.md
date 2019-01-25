@@ -8,5 +8,4 @@ A religious research library is located at the school facility. Also a new Sprin
 
 ![floorplan][floorplan]
 
-
 [floorplan]: /images/facility/floorplan.jpg
