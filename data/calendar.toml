@@ -1,0 +1,108 @@
+[[academic]]
+  year = "2020 - 2021"
+  [[academic.quarter]]
+    heading = "First"
+    date = "August 04 – October 09, 2020"
+    [[academic.quarter.events]]
+      event = "Registration and Orientation"
+      date = "August 04, 2020"
+    [[academic.quarter.events]]
+      event = "Classes Start"
+      date = "August 05, 2020"
+    [[academic.quarter.events]]
+      event = "Holiday"
+      date = "September 07, 2020 (Labor Day)"
+    [[academic.quarter.events]]
+      event = "Research Week"
+      date = "September 21 – 25, 2020"
+    [[academic.quarter.events]]
+      event = "Final Exams"
+      date = "October 12 – 13, 2020"
+    [[academic.quarter.events]]
+      event = "Off"
+      date = ""
+  [[academic.quarter]]
+    heading = "Second"
+    date = "October 14, 2020 – December 18, 2020"
+    [[academic.quarter.events]]
+      event = "Research Week"
+      date = "November 23 – 27, 2020"
+    [[academic.quarter.events]]
+      event = "Final Exams"
+      date = "December 16, 2020 – December 18, 2020"
+    [[academic.quarter.events]]
+      event = "Holiday Break"
+      date = "December 21 – January 01, 2021"
+  [[academic.quarter]]
+    heading = "Third"
+    date = "January 04 – March 10, 2021"
+    [[academic.quarter.events]]
+      event = "Research Week"
+      date = "February 01 – February 05, 2021"
+    [[academic.quarter.events]]
+      event = "Final Exams"
+      date = "March 08 – 10, 2021"
+    [[academic.quarter.events]]
+      event = "Off"
+      date = "March 11 – 12, 2021"
+  [[academic.quarter]]
+    heading = "Fourth"
+    date = "March 15 – May 19, 2021"
+    [[academic.quarter.events]]
+      event = "Research Week"
+      date = "April 12 – 16, 2021"
+    [[academic.quarter.events]]
+      event = "Final Exams"
+      date = ""
+
+
+[[academic]]
+  year = "2019 - 2020"
+  [[academic.quarter]]
+    heading = "First"
+    date = "August 06 – October 11, 2019"
+    [[academic.quarter.events]]
+      event = "Registration and Orientation"
+      date = "August 06, 2019"
+    [[academic.quarter.events]]
+      event = "Classes Start"
+      date = "August 07, 2019"
+    [[academic.quarter.events]]
+      event = "Research Week"
+      date = "September 16 – 20, 2019"
+    [[academic.quarter.events]]
+      event = "Final Exams"
+      date = "October 09 – 11, 2019"
+  [[academic.quarter]]
+    heading = "Second"
+    date = "October 16, 2019 – December 20, 2019"
+    [[academic.quarter.events]]
+      event = "Research Week"
+      date = "November 25 – 29, 2019"
+    [[academic.quarter.events]]
+      event = "Final Exams"
+      date = "December 18 - 20, 2019"
+    [[academic.quarter.events]]
+      event = "Holiday Break"
+      date = "December 23, 2019 - January 03, 2020"
+  [[academic.quarter]]
+    heading = "Third"
+    date = "January 06 – March 11, 2020"
+    [[academic.quarter.events]]
+      event = "Research Week"
+      date = "February 03 – 07, 2020"
+    [[academic.quarter.events]]
+      event = "Final Exams"
+      date = "March 09 – 11, 2020"
+    [[academic.quarter.events]]
+      event = "Off"
+      date = "March 12 – 13, 2020"
+  [[academic.quarter]]
+    heading = "Fourth"
+    date = "March 16 – May 22, 2020"
+    [[academic.quarter.events]]
+      event = "Research Week"
+      date = "April 13 – 17, 2020"
+    [[academic.quarter.events]]
+      event = "Final Exams"
+      date = "May 18 – 20, 2020"
