@@ -134,7 +134,7 @@ googleAnalytics = ""
 [params]
   title = "Bible Institute of Missouri"
   subtitle = "The Bible Institute of Missouri is a work of the Kansas Expressway church of Christ, Sprinfield, Missouri."
-  author = "Daniel Saunders"
+  author = "Tyler Reid"
 
   customCSS = ["bim.css"]
 
@@ -176,8 +176,8 @@ googleAnalytics = ""
         type = "special"
 
         [[params.landing.banner.button]]
-        url = "#feature-icons"
-        text = "Find out more"
+        url = "/classes"
+        text = "Online Classes"
 
     #Details for the box below the banner
     [params.landing.services]

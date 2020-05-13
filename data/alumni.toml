@@ -1,41 +1,41 @@
     [[classes]]
       class = "Current Class (2019)"
-      img = "current.jpg"
+      img = "current.png"
       students = ["Brendan Carr", "Dylan Chaney", "Casey Rice", "Dante Villarreal"]
 
     [[classes]]
       class = "XI Class (2020)"
-      img = "xi.jpg"
+      img = "xi.png"
       students = ["Dylan Chaney", "Casey Rice", "Dante Villarreal"]
 
     [[classes]]
       class = "NU Class (2019)"
-      img = "nu.jpg"
+      img = "nu.png"
       students = ["Brendan Carr"]
 
     [[classes]]
       class = "MU Class (2018)"
-      img = "mu.jpg"
+      img = "mu.png"
       students = ["Zac Hall", "Evan Welch"]
 
     [[classes]]
       class = "LAMBDA Class (2017)"
-      img = "lambda.jpg"
+      img = "lambda.png"
       students = ["Cory Orr"]
 
     [[classes]]
       class = "KAPPA Class (2016)"
-      img = "kappa.jpg"
+      img = "kappa.png"
       students = ["David Blades", "Brandon Hall", "Trey Sullins", "Thadd Valeika"]
 
     [[classes]]
       class = "IOTA Class (2014)"
-      img = "iota.jpg"
+      img = "iota.png"
       students = ["Dustin McCrickard", "Ethan Young"]
 
     [[classes]]
       class = "THETA Class (2013)"
-      img = "theta.jpg"
+      img = "theta.png"
       students = ["Allen Fischgrabe", "Jesse Young"]
 
     [[classes]]
@@ -45,7 +45,7 @@
 
     [[classes]]
       class = "ZETA Class (2011)"
-      img = "zeta.jpg"
+      img = "zeta.png"
       students = ["Jarrod King"]
 
     [[classes]]
@@ -55,20 +55,20 @@
 
     [[classes]]
       class = "DELTA Class (2008)"
-      img = "delta.jpg"
+      img = "delta.png"
       students = ["Joshua Adams", "Russ Earl", "Kevin Heavin"]
 
     [[classes]]
       class = "GAMMA Class (2007)"
-      img = "gamma.jpg"
+      img = "gamma.png"
       students = ["Amos Bieler", "Brent Green", "Edgar Landa", "Scott Marriot", "Derek Yarber"]
 
     [[classes]]
       class = "BETA Class (2006)"
-      img = "alpha.jpg"
+      img = "alpha.png"
       students = ["Gerry Anderson", "Andrew Bieler", "Alex Diestelkamp (not pictured)", "Jesus Lozano"]
 
     [[classes]]
       class = "ALPHA Class (2005)"
-      img = "alpha.jpg"
+      img = "alpha.png"
       students = ["David Clark", "Jeff Fisher", "Andy Heavin", "Jason McCully", "Adam Orr", "German (Dony) Rodriguez", "Nathan Ross", "Bryan Thurkill"]
