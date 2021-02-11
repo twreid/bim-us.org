@@ -1,0 +1,19 @@
+{{ if .Site.Data.calendar.academic }}
+    {{ range .Site.Data.calendar.academic }}
+        <h2> {{ .year }} </h2>
+        {{ range .quarter }}
+        <table style="width: 100%;">
+            <tr>
+                <th><strong>{{ .heading | upper }} QUARTER</strong></th>
+                <th><strong>{{ .date }}</strong></th>
+            </tr>
+            {{ range .events }}
+            <tr>
+                <td>{{ .event | title }}</td>
+                <td>{{ .date }}</td>
+            </tr>
+            {{ end }}
+        </table>
+        {{ end }}
+    {{ end }}
+{{ end }}

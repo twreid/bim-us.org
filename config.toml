@@ -67,9 +67,56 @@ googleAnalytics = ""
     weight = 6
 
   [[menu.main]]
-    name = "Resources"
+    name = "Program"
     url = "#"
     weight = 3
+
+  [[menu.main]]
+    name = "Calendar"
+    parent = "Program"
+    url = "/program/calendar"
+    weight = 1
+
+  [[menu.main]]
+    name = "Catalog"
+    parent = "Program"
+    url = "/program/catalog"
+    weight = 2
+
+  [[menu.main]]
+    name = "Course Schedule"
+    parent = "Program"
+    url = "/program/schedule"
+    weight = 3
+
+  [[menu.main]]
+    name = "Curriculum"
+    parent = "Program"
+    url = "/program/curriculum"
+    weight = 4
+
+  [[menu.main]]
+    name = "Daily Schedule"
+    parent = "Program"
+    url = "/program/daily"
+    weight = 5
+
+  [[menu.main]]
+    name = "Objectives"
+    parent = "Program"
+    url = "/program/objectives"
+    weight = 6
+
+  [[menu.main]]
+    name = "Requirements"
+    parent = "Program"
+    url = "/program/requirements"
+    weight = 6
+
+  [[menu.main]]
+    name = "Resources"
+    url = "#"
+    weight = 4
 
   [[menu.main]]
     name = "Sermons"
@@ -87,7 +134,7 @@ googleAnalytics = ""
 [params]
   title = "Bible Institute of Missouri"
   subtitle = "The Bible Institute of Missouri is a work of the Kansas Expressway church of Christ, Sprinfield, Missouri."
-  author = "Daniel Saunders"
+  author = "Tyler Reid"
 
   customCSS = ["bim.css"]
 
@@ -129,8 +176,8 @@ googleAnalytics = ""
         type = "special"
 
         [[params.landing.banner.button]]
-        url = "#feature-icons"
-        text = "Find out more"
+        url = "/classes"
+        text = "Online Classes"
 
     #Details for the box below the banner
     [params.landing.services]
